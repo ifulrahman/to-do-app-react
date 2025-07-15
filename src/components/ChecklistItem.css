@@ -1,0 +1,55 @@
+.checklist-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.item-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.item-left span {
+  font-size: 16px;
+  color: #444;
+}
+
+.item-left span.done {
+  text-decoration: line-through;
+  color: #a1a1a1;
+}
+
+.item-actions button {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.rename-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.rename-btn:hover {
+  background-color: #3b8e3b;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c23627;
+}
